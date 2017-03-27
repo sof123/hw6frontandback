@@ -1,0 +1,18 @@
+
+> starter@1.0.0 e2e:base C:\Users\Simi_\Desktop\COMP 431\hw6\hw6\frontend
+> mocha --opts e2e/mocha.opts e2e/*.spec.js "--reporter" "xunit"
+
+<testsuite name="Mocha Tests" tests="12" failures="0" errors="0" skipped="0" timestamp="Thu, 05 Jan 2017 08:49:22 GMT" time="36.961">
+<testcase classname="Test Dummy Server Example Page" name="should register" time="14.014"/>
+<testcase classname="Test Dummy Server Example Page" name="should log in" time="3.6"/>
+<testcase classname="Test Dummy Server Example Page" name="should log in as the test user" time="0.559"/>
+<testcase classname="Test Dummy Server Example Page" name="should create a new article and validate that it appears in feed" time="1.919"/>
+<testcase classname="Test Dummy Server Example Page" name="should edit an article and validate the article text has updated" time="1.965"/>
+<testcase classname="Test Dummy Server Example Page" name="should update the status headline and verify the change" time="1.981"/>
+<testcase classname="Test Dummy Server Example Page" name="Should Add a follower and increase the count by 1" time="0.001"/>
+<testcase classname="Test Dummy Server Example Page" name="Should remove a follower and decrease the count by 1" time="0.001"/>
+<testcase classname="Test Dummy Server Example Page" name="should navigate to the profile view, Update the user's email and verify" time="3.922"/>
+<testcase classname="Test Dummy Server Example Page" name="should navigate to the profile view, Update the user's zipcode and verify" time="2.943"/>
+<testcase classname="Test Dummy Server Example Page" name="should say will not change when you try to change password" time="3.089"/>
+<testcase classname="shutdown" name="now" time="2.145"/>
+</testsuite>

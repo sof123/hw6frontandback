@@ -1,0 +1,12 @@
+
+> starter@1.0.0 test C:\Users\Simi_\Desktop\COMP 431\hw6\hw6\backend
+> mocha --opts mocha.opts src/**/*.spec.js "--reporter" "xunit"
+
+<testsuite name="Mocha Tests" tests="6" failures="0" errors="0" skipped="0" timestamp="Thu, 05 Jan 2017 20:12:18 GMT" time="0.618">
+<testcase classname="Validate Profile Functionality" name="should get the default headline for loggedinuser" time="0.131"/>
+<testcase classname="Validate Profile Functionality" name="should get the headline for sof2" time="0.1"/>
+<testcase classname="Validate Article functionality" name="should give me three or more articles" time="0.068"/>
+<testcase classname="Validate Article functionality" name="should add two articles with successive article ids, and return the article each time" time="0.085"/>
+<testcase classname="Validate Article functionality" name="should return an article with a specified id" time="0.085"/>
+<testcase classname="Validate Article functionality" name="should return nothing for an invalid id" time="0.134"/>
+</testsuite>
