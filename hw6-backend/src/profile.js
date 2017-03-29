@@ -123,15 +123,17 @@ const fakeGetArticles =  (req, res) =>
 
 const fakeAddArticle = (req, res) => {
 
-  fakeArticles.articles.push({
+  var toPush = {
     id: currentId,
     author: fakeLoggedInProfile.username,
     text: req.body.text,
     date: "4-12-1993",
     comments: ["appended article"]
-  })
+  }
+
+  fakeArticles.articles.push(toPush)
   currentId+=1
-  res.json(fakeArticles)
+  res.json({articles: toPush})
 
 }
 

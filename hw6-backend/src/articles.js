@@ -18,7 +18,7 @@ function addArticle(req, res, callback) {
     {
       console.log("ERROR")
       return handleError(err);
-    }
+    }z
     getFeedArticlesForUser(req.session.username)
       .then(articles => res.json({ articles }))
       .catch(err => res.status(500).json({ error: err.message }))
