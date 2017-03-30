@@ -1,5 +1,5 @@
 {
      "netid": "sof1",
   "frontend": "http://sof1frontend.surge.sh",
-   "backend": "http://localhost:3000"
+   "backend": "https://fakebackendsof1.herokuapp.com"
 }

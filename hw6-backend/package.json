@@ -38,6 +38,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-2": "^6.5.0",
     "bluebird": "^3.3.5",
+    "body-parser": "^1.17.1",
     "bootstrap": "^3.3.7",
     "bootstrap-webpack": "0.0.5",
     "chai": "^3.5.0",
@@ -90,6 +91,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "express-sessions": "^1.0.6"
+    "express-sessions": "^1.0.6",
+    "body-parser": "^1.17.1"
   }
 }
